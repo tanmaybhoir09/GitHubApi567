@@ -17,7 +17,7 @@ class TestGitHub(unittest.TestCase):
     def testgetRepoCommits_ValidValue(self):
         self.assertEqual(getRepoCommits('tanmaybhoir09'), ['Repo: Triangle567, Number of commits: 11',
                                                     'Repo: SSW567-HW02, Number of commits: 5',
-                                                    'Repo: GitHubApi567, Number of commits: 4',
+                                                    'Repo: GitHubApi567, Number of commits: 9',
                                                     'Repo: UniversityDatabase, Number of commits: 2'])
 
 
